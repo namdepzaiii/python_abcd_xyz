@@ -1,0 +1,9 @@
+nummber of thread (requests): "12"
+nummber of thread (hidemium): "4"
+
+connect str : "mongodb+srv://namdepzai61:nFkpiFB6xo5aXnj0@namdeeptrymongodb.ecb5e.mongodb.net/?retryWrites=true&w=majority&appName=namdeeptrymongodb"
+database : "database1"
+collection : "test4"
+
+
+

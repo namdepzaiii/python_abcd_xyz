@@ -1,0 +1,43 @@
+1Z8126RL42521624535
+1Z8104IA82890716779
+1Z8156BQ11262054337
+1Z8131GV39874354224
+1Z8171WE11410594019
+1Z8164DC59426172468
+1Z8103UA08832878918
+1Z8156HG49212065965
+1Z8125XB08294225692
+1Z8111NZ56050209381
+
+1Z 81 RF 25039186 9447
+1Z 81 R9 84038521 2963
+1Z 81 R9 84038521 3408
+1Z 81 R9 84038523 2601
+1Z 81 R9 84038525 6363
+1Z 81 R9 84038525 7013
+1Z 81 R9 84038526 6236
+1Z81R9840385232601
+
+1ZX99A740323899215
+1Z81R9840385256363
+1Z81R9840385257013
+1Z81R9840385266236
+
+1Z82A2Y40386067727
+1Z04E04A0385528230
+1Z1Y706A0383375704
+1Z81RF250392532343
+1Z82A2Y40386497763
+
+Cấu Trúc Của Mã Tracking:
+1Z: Chỉ ra rằng đây là mã tracking của UPS.
+2 chữ số tiếp theo (ví dụ: 81): Chỉ định mã dịch vụ hoặc mã khu vực của UPS.
+2 ký tự (ví dụ: RF): Có thể chỉ ra loại gói hàng, tuyến đường vận chuyển hoặc mã phân loại nội bộ của UPS.
+8 chữ số tiếp theo: Dãy số nhận dạng duy nhất cho gói hàng.
+3 chữ số cuối (ví dụ: 447): Đây thường là số kiểm tra, giúp xác minh tính hợp lệ của mã tracking.
+
+kết quả thống kê :
+1 mã gen ra 10k mã >> đúng khoảng 700-1000 Mã
+tỉ lệ deliver phụ thuộc vào thời gian mã được sinh ra
+
+
