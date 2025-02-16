@@ -5,20 +5,24 @@ def OpenProfile(uuid):
     try:
         x = requests.get('http://127.0.0.1:2222/openProfile?uuid='+uuid)
         result =  x.json()
+        print(result)
         return result['data']['web_socket']
     except Exception as e:
         print("error get data ==>  " ,result)
         return None
+    
+OpenProfile('2231aa38-4b44-4f29-82a5-d1345eab8d67')
+
+
 
 def CloseProfile(uuid):
     try:
         x = requests.get('http://127.0.0.1:2222/closeProfile?uuid='+uuid)
-        
         result =  x.json()
         return result['result']
     except Exception as e:
-        # print("error CloseProfile ==>  " ,e)
         return None
+
 
 def CheckingProfile(uuid):
     try:
